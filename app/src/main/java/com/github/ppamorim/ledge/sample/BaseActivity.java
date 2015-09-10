@@ -1,4 +1,4 @@
-package com.github.ppamorim.ledge;
+package com.github.ppamorim.ledge.sample;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;

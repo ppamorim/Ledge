@@ -1,10 +1,7 @@
-apply plugin: 'com.android.application'
+apply plugin: 'com.android.library'
 apply plugin: 'checkstyle'
 
-dependencies {
-  compile project(':ledge')
-  compile 'com.android.support:appcompat-v7:23.0.1'
-}
+dependencies { }
 
 android {
 
@@ -12,7 +9,6 @@ android {
   buildToolsVersion project.ANDROID_BUILD_TOOLS_VERSION
 
   defaultConfig {
-    applicationId "com.github.ppamorim.ledge.sample"
     versionCode Integer.parseInt(project.VERSION_CODE)
     versionName project.VERSION_NAME
     minSdkVersion Integer.parseInt(project.ANDROID_MIN_SDK)
